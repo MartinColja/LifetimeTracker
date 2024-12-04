@@ -13,8 +13,13 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "LifetimeTrackerCore"
+        ),
+        .target(
             name: "LifetimeTracker",
-            path: "Sources",
+            dependencies: [
+                .target(name: "LifetimeTrackerCore"),
+            ],
             resources: [
                 .process("Resources"),
                 .process("Localizable.strings", localization: .default),

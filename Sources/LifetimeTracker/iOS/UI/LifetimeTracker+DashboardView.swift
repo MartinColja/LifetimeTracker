@@ -6,6 +6,7 @@
 //
 
 import UIKit
+@_exported import LifetimeTrackerCore
 
 fileprivate extension String {
     #if swift(>=4.0)
