@@ -10,6 +10,10 @@ let package = Package(
             name: "LifetimeTracker",
             targets: ["LifetimeTracker"]
         ),
+        .library(
+            name: "LifetimeTrackerCore",
+            targets: ["LifetimeTrackerCore"]
+        ),
     ],
     targets: [
         .target(
