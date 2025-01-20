@@ -1,5 +1,6 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#import <LifetimeTrackerCore/LifetimeTrackerCore-umbrella.h>
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -10,8 +11,6 @@
 #endif
 #endif
 
-#import "LifetimeTracker-umbrella.h"
 
 FOUNDATION_EXPORT double LifetimeTrackerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LifetimeTrackerVersionString[];
-
