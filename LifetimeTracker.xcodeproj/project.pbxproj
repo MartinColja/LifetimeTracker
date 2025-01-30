@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03AB34A22D4BF30D001586C7 /* LifetimeTrackerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */; };
+		03AB34E32D4BF5D8001586C7 /* LifetimeTrackerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */; };
+		03AB34E42D4BF5D8001586C7 /* LifetimeTrackerCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03AB34E52D4BF5D8001586C7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03AB34E42D4BF5D8001586C7 /* LifetimeTrackerCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LifetimeTrackerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03AB34A22D4BF30D001586C7 /* LifetimeTrackerCore.framework in Frameworks */,
+				03AB34E32D4BF5D8001586C7 /* LifetimeTrackerCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,7 @@
 				03ABADD12D4BF23200747DD7 /* Sources */,
 				03ABADD22D4BF23200747DD7 /* Frameworks */,
 				03ABADD32D4BF23200747DD7 /* Resources */,
+				03AB34E52D4BF5D8001586C7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
