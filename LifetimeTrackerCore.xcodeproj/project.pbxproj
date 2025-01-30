@@ -6,57 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		03AB34A22D4BF30D001586C7 /* LifetimeTrackerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LifetimeTrackerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		03ABADD52D4BF23200747DD7 /* LifetimeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifetimeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AB34912D4BF2C4001586C7 /* LifetimeTrackerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifetimeTrackerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		03ABADD72D4BF23200747DD7 /* LifetimeTracker */ = {
+		03AB34932D4BF2C4001586C7 /* LifetimeTrackerCore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			name = LifetimeTracker;
-			path = Sources/LifetimeTracker;
+			name = LifetimeTrackerCore;
+			path = Sources/LifetimeTrackerCore;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03ABADD22D4BF23200747DD7 /* Frameworks */ = {
+		03AB348E2D4BF2C4001586C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03AB34A22D4BF30D001586C7 /* LifetimeTrackerCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03AB34A02D4BF30D001586C7 /* Frameworks */ = {
+		03AB34872D4BF2C4001586C7 = {
 			isa = PBXGroup;
 			children = (
-				03AB34A12D4BF30D001586C7 /* LifetimeTrackerCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		03ABADCB2D4BF23200747DD7 = {
-			isa = PBXGroup;
-			children = (
-				03ABADD72D4BF23200747DD7 /* LifetimeTracker */,
-				03AB34A02D4BF30D001586C7 /* Frameworks */,
-				03ABADD62D4BF23200747DD7 /* Products */,
+				03AB34932D4BF2C4001586C7 /* LifetimeTrackerCore */,
+				03AB34922D4BF2C4001586C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		03ABADD62D4BF23200747DD7 /* Products */ = {
+		03AB34922D4BF2C4001586C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03ABADD52D4BF23200747DD7 /* LifetimeTracker.framework */,
+				03AB34912D4BF2C4001586C7 /* LifetimeTrackerCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +49,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03ABADD02D4BF23200747DD7 /* Headers */ = {
+		03AB348C2D4BF2C4001586C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,64 +59,64 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03ABADD42D4BF23200747DD7 /* LifetimeTracker */ = {
+		03AB34902D4BF2C4001586C7 /* LifetimeTrackerCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03ABADDB2D4BF23200747DD7 /* Build configuration list for PBXNativeTarget "LifetimeTracker" */;
+			buildConfigurationList = 03AB34972D4BF2C4001586C7 /* Build configuration list for PBXNativeTarget "LifetimeTrackerCore" */;
 			buildPhases = (
-				03ABADD02D4BF23200747DD7 /* Headers */,
-				03ABADD12D4BF23200747DD7 /* Sources */,
-				03ABADD22D4BF23200747DD7 /* Frameworks */,
-				03ABADD32D4BF23200747DD7 /* Resources */,
+				03AB348C2D4BF2C4001586C7 /* Headers */,
+				03AB348D2D4BF2C4001586C7 /* Sources */,
+				03AB348E2D4BF2C4001586C7 /* Frameworks */,
+				03AB348F2D4BF2C4001586C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				03ABADD72D4BF23200747DD7 /* LifetimeTracker */,
+				03AB34932D4BF2C4001586C7 /* LifetimeTrackerCore */,
 			);
-			name = LifetimeTracker;
+			name = LifetimeTrackerCore;
 			packageProductDependencies = (
 			);
-			productName = LifetimeTracker;
-			productReference = 03ABADD52D4BF23200747DD7 /* LifetimeTracker.framework */;
+			productName = LifetimeTrackerCore;
+			productReference = 03AB34912D4BF2C4001586C7 /* LifetimeTrackerCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		03ABADCC2D4BF23200747DD7 /* Project object */ = {
+		03AB34882D4BF2C4001586C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					03ABADD42D4BF23200747DD7 = {
+					03AB34902D4BF2C4001586C7 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 03ABADCF2D4BF23200747DD7 /* Build configuration list for PBXProject "LifetimeTracker" */;
+			buildConfigurationList = 03AB348B2D4BF2C4001586C7 /* Build configuration list for PBXProject "LifetimeTrackerCore" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 03ABADCB2D4BF23200747DD7;
+			mainGroup = 03AB34872D4BF2C4001586C7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 03ABADD62D4BF23200747DD7 /* Products */;
+			productRefGroup = 03AB34922D4BF2C4001586C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03ABADD42D4BF23200747DD7 /* LifetimeTracker */,
+				03AB34902D4BF2C4001586C7 /* LifetimeTrackerCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03ABADD32D4BF23200747DD7 /* Resources */ = {
+		03AB348F2D4BF2C4001586C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -141,7 +126,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03ABADD12D4BF23200747DD7 /* Sources */ = {
+		03AB348D2D4BF2C4001586C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -151,7 +136,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		03ABADDC2D4BF23200747DD7 /* Debug */ = {
+		03AB34982D4BF2C4001586C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -179,7 +164,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LifetimeTracker.LifetimeTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LifetimeTracker.LifetimeTrackerCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -192,7 +177,7 @@
 			};
 			name = Debug;
 		};
-		03ABADDD2D4BF23200747DD7 /* Release */ = {
+		03AB34992D4BF2C4001586C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -220,7 +205,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LifetimeTracker.LifetimeTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LifetimeTracker.LifetimeTrackerCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -233,7 +218,7 @@
 			};
 			name = Release;
 		};
-		03ABADDE2D4BF23200747DD7 /* Debug */ = {
+		03AB349A2D4BF2C4001586C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +282,7 @@
 			};
 			name = Debug;
 		};
-		03ABADDF2D4BF23200747DD7 /* Release */ = {
+		03AB349B2D4BF2C4001586C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03ABADCF2D4BF23200747DD7 /* Build configuration list for PBXProject "LifetimeTracker" */ = {
+		03AB348B2D4BF2C4001586C7 /* Build configuration list for PBXProject "LifetimeTrackerCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03ABADDE2D4BF23200747DD7 /* Debug */,
-				03ABADDF2D4BF23200747DD7 /* Release */,
+				03AB349A2D4BF2C4001586C7 /* Debug */,
+				03AB349B2D4BF2C4001586C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03ABADDB2D4BF23200747DD7 /* Build configuration list for PBXNativeTarget "LifetimeTracker" */ = {
+		03AB34972D4BF2C4001586C7 /* Build configuration list for PBXNativeTarget "LifetimeTrackerCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03ABADDC2D4BF23200747DD7 /* Debug */,
-				03ABADDD2D4BF23200747DD7 /* Release */,
+				03AB34982D4BF2C4001586C7 /* Debug */,
+				03AB34992D4BF2C4001586C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 03ABADCC2D4BF23200747DD7 /* Project object */;
+	rootObject = 03AB34882D4BF2C4001586C7 /* Project object */;
 }
